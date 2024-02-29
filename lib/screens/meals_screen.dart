@@ -13,7 +13,7 @@ class MealsScreen extends StatelessWidget {
 
   final String? title;
   final List<Meal> meals;
-  final Function(Meal meal) onToggleFavorite;
+  final void Function(Meal meal) onToggleFavorite;
 
   void _onSelectMeal(BuildContext context, Meal meal) {
     // Navigator.push(context, (ctx) => )
